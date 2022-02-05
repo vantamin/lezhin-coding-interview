@@ -1,0 +1,30 @@
+.rank {
+  flex: 1;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.current {
+  display: block;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.red svg,
+.blue svg {
+  margin-right: 4px;
+}

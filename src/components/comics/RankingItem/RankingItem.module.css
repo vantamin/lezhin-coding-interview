@@ -1,0 +1,22 @@
+.link {
+  display: flex;
+  padding: 10px;
+  border: 1px solid;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.thumbnail {
+  flex: 2;
+  margin-right: 10px;
+}
+
+.contents {
+  flex: 4;
+}
+
+.title {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,22 @@
+.root {
+  margin-top: 10px;
+  border: 1px solid;
+  padding: 10px 0 0 10px;
+}
+
+.root button {
+  height: 36px;
+  padding: 10px 20px;
+  border-radius: 18px;
+  margin: 0 10px 10px 0;
+  background-color: #eff1f4;
+}
+
+.root button:last-child {
+  margin-right: 0;
+}
+
+.root button.active {
+  color: #fff;
+  background-color: #eb0026;
+}

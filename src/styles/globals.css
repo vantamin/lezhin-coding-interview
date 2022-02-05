@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+dd,
+dl,
+dt,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+button {
+  border: 0 none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.noWrap {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+}
